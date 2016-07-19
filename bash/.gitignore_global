@@ -1,0 +1,11 @@
+# bin files
+*.exe
+*.dll
+*.o
+*.out
+*.so
+
+# OS crap
+.DS_Store
+Thumbs.db
+

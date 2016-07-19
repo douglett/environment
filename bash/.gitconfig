@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = doug
+	email = doug@d-mini.local
+[core]
+	excludesfile = /Users/doug/.gitignore_global
+[push]
+	default = simple
+[format]
+	pretty = pretty = %C(green)(%cr) %C(yellow)%h %C(cyan)%an %C(red)%d %C(green)(%ci)%Creset\n   %s
