@@ -1,10 +1,12 @@
 # This is Git's per-user configuration file.
 [user]
-	name = doug
-	email = doug@d-mini.local
+	name = doug@xxx
+	email = doug@totem9.net
 [core]
-	excludesfile = /Users/doug/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [push]
-	default = simple
+	default = matching
 [format]
 	pretty = pretty = %C(green)(%cr) %C(yellow)%h %C(cyan)%an %C(red)%d %C(green)(%ci)%Creset\n   %s
+[credential]
+	helper = cache --timeout=14400  # timeout in 4 hourse
