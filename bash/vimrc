@@ -1,5 +1,5 @@
-set bs=2
-set nocompatible
 syntax on
-set number
-set tabstop=4
+set tabstop=2
+set nocompatible
+set bs=2
+" set number
