@@ -5,6 +5,9 @@
 *.out
 *.so
 
+# editors / ide-s
+*.swp
+
 # OS crap
 .DS_Store
 Thumbs.db
