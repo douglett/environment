@@ -11,11 +11,14 @@ mkdir dev
 
 # clone some stuff
 cd dev
-git clone https://github.com/douglett/baseproj
+git clone https://github.com/douglett/environment
 git clone https://github.com/douglett/dougmake
 cd
 
 # make symlinks
-ln -sf dev/baseproj/bash/.gitignore_global
-ln -sf dev/baseproj/bash/.gitconfig	
-ln -sf dev/baseproj/bash/.vimrc
+echo "making symlinks..."
+ln -sf dev/environment/bash/gitignore_global .gitignore_global
+ln -sf dev/environment/bash/gitconfig .gitconfig
+ln -sf dev/environment/bash/vimrc .vimrc
+
+echo "done!"
