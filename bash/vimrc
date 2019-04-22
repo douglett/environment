@@ -2,4 +2,5 @@ syntax on
 set tabstop=4
 set nocompatible
 set bs=2
+set autoindent
 " set number
