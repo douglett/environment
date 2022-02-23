@@ -1,0 +1,6 @@
+#set morespace      # obsolete?
+set autoindent      # indent lines
+set nonewlines      # no automatic newline at eof
+set smarthome       # home respects indents
+set tabsize 4       # yep
+set linenumbers     # probably always useful
